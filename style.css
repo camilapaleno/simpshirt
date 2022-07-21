@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     background-color: #181718;
     padding-bottom: 236px;
@@ -48,6 +53,11 @@ span.simp--bytom {
     align-items: center;
     color: #e0e5ec;
 }
+
+
+.simp--buy-container {
+    width: 100%;
+}
 .simp--buy {
     background-color: #fff;
     height: 100vh;
@@ -55,13 +65,9 @@ span.simp--bytom {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     color: #181718;
 }
-
-.simp--buy-container {
-    width: 100%;
-}
-
 
 .simp--pics {
     background-color: #181718;
