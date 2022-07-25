@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -57,6 +58,7 @@ span.simp--bytom {
 
 .simp--buy-container {
     width: 100%;
+    padding: 50px;
 }
 .simp--buy {
     background-color: #fff;
@@ -116,6 +118,11 @@ span.simp--bytom {
 
 .simp--footer li{
     padding-bottom: 20px;
+}
+
+.simp--footer li a{
+    color: #e0e5ec;
+    text-decoration: none;
 }
 
 .simp--footer li:last-child{
