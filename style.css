@@ -81,14 +81,22 @@ span.simp--bytom {
     padding: 50px;
 }
 
+.simp--pics a {
+    color: #e0e5ec;
+    text-decoration: none;
+}
+
+.simp--pics i {
+    padding: 0 10px;
+}
 .simp--pics-insta{
     width: 100%;
-
+    max-width: 1080px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     
-    margin-top: 50px;
+    margin: 50px 0px;
 }
 
 .simp--pics-insta img{
@@ -108,7 +116,7 @@ span.simp--bytom {
     list-style: none;
     font-family: 'Work Sans', sans-serif;
     padding: 50px;
-    background-color: #181718;
+    background-color: #131313;
     color: #e0e5ec;
 }
 
